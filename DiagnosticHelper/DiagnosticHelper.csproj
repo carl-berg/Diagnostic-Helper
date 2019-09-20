@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Carl Berg</Authors>
+    <Copyright>Copyright (c) 2019 Carl Berg</Copyright>
+    <VersionPrefix>0.1.0</VersionPrefix>
+    <Description>Diagnostic Helper, simplify subscribing to diagnostic events</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/carl-berg/diagnostic-helper</PackageProjectUrl>
+    <PackageTags>Diagnostic, DiagnosticListener, DiagnosticSource</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="4.5.1" />
+  </ItemGroup>
+
+</Project>
