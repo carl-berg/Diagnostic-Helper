@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Carl Berg</Authors>
     <Copyright>Copyright (c) 2019 Carl Berg</Copyright>
-    <VersionPrefix>0.1.0</VersionPrefix>
+    <VersionPrefix>0.2.0</VersionPrefix>
     <Description>Diagnostic Helper, simplify subscribing to diagnostic events</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/carl-berg/diagnostic-helper</PackageProjectUrl>
