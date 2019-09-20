@@ -7,7 +7,7 @@ namespace DiagnosticHelper
     {
         public static void Log(this DiagnosticSource source, EventArgs eventArgs)
         {
-            var name = typeof(EventArgs).Name;
+            var name = eventArgs.GetType().Name;
             if (source.IsEnabled(name))
             {
                 source.Write(name, eventArgs);
